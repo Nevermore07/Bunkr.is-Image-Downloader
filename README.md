@@ -29,4 +29,5 @@
 
 
 if your URL looks like this with ('\') - ‪C:\Users\User\Desktop\New folder
+
 then while pasting in the script just replace ('\') with ('/') so the above URL wil become - ‪C:/Users/User/Desktop/New folder
