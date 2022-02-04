@@ -2,9 +2,10 @@ from bs4 import BeautifulSoup
 import requests
 import os
 
-BUNKR_URL = "https://bunkr.is/a/lMFjwdoN"
+BUNKR_URL = "Bunkr.is URL"
 
-FOLDER_PATH = "C:/Users/User/Desktop/New folder"
+FOLDER_PATH = "FOLDER PATH"   # eg: C:/Users/User/Desktop/New folder
+
 
 headers = {
     "Accept-Encoding": "gzip, deflate",
@@ -19,10 +20,10 @@ soup = BeautifulSoup(webpage, "html.parser")
 
 
 pictures = soup.find_all(name='a', class_='image')
-print(len(pictures))
+print(f"{len(pictures)} images found")
 
 picture_links = [link.get("href") for link in pictures]
-print(picture_links)
+# print(picture_links)
 
 
 os.chdir(FOLDER_PATH)
