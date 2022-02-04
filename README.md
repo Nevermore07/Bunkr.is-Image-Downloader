@@ -8,11 +8,9 @@
 
 
 
-**The script is relatively easy to use
-
-**You just need to provide two things
-* Bunkr.is URL
-* Path of the folder where you want to download the images
+**The script is relatively easy to use You just need to provide two things**
+1. Bunkr.is URL
+2. Path of the folder where you want to download the images
 
 ![image](https://user-images.githubusercontent.com/97673791/152503218-7a5fe0be-0f35-4f5c-83f7-8bcd2a36d49c.png)
 
