@@ -27,7 +27,7 @@
 ![image](https://user-images.githubusercontent.com/97673791/152503655-e0459578-8225-4878-b40b-ff992a0babbe.png)
 
 
+**NOTE**
+if your URL looks like this with ('\\') - ‪C:\Users\User\Desktop\New folder
 
-if your URL looks like this with ('\') - ‪C:\Users\User\Desktop\New folder
-
-then while pasting in the script just replace ('\') with ('/') so the above URL wil become - ‪C:/Users/User/Desktop/New folder
+then while pasting in the script just replace ('\\') with ('/') so the above URL wil become - ‪C:/Users/User/Desktop/New folder
