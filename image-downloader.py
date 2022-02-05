@@ -2,9 +2,11 @@ from bs4 import BeautifulSoup
 import requests
 import os
 
+# PASTE THE URL WITHIN THE QUOTES
 BUNKR_URL = "Bunkr.is URL"
 
-FOLDER_PATH = "FOLDER PATH"   # eg: C:/Users/User/Desktop/New folder
+# PASTE THE PATH WITHIN THE QUOTES
+FOLDER_PATH = "FOLDER PATH"   # eg: "C:/Users/User/Desktop/New folder"
 
 
 headers = {
